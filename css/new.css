@@ -1,0 +1,188 @@
+body{
+    max-width: 90%;
+    margin: 0 auto;
+}
+#main{
+    background-color: #f5f5f5;
+}
+#img{
+    max-width: 100%;
+    height: 90vh;
+}
+.first-image{
+    width: 90%;
+    height: 60vh;
+    position: absolute;
+    z-index: 0;
+}
+#img-div{
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    border-radius: 100%;
+    height: 40%;
+    top: 40%;
+    left: 38%;
+    margin: 0 auto;
+}
+#image{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#img-caption{
+    text-align: center;
+    font-size: xx-large;
+}
+#title{
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 90%;
+    top: 11%;
+    font-family: sans-serif;
+    color: white;
+    left: 5%;
+    font-size: 7em;
+    text-decoration-line: underline;
+    animation-name: underline;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#tribute-info{
+    display: inline-block;
+    width: 54%;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+#left-up{
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+#left-middle{
+    width: 60%;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+#left-down{
+    width: 100%;
+    border-radius: 50%;
+}
+.left{
+    display: inline-block;
+    width: 22%;
+}
+.right{
+    display: inline-block;
+    width: 22%;
+}
+#right-top{
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+#right-middle{
+    width: 100%;
+    margin-top: 2%;
+}
+#right-down{
+    width: 82%;
+    border-radius: 20%;
+    margin-left: 8%;
+}
+#tribute-link>p{
+    text-align: center;
+    font-size: x-large;
+    color: #808000;
+}
+footer{
+    margin-top: 5%;
+}
+
+@keyframes underline {
+    0%{
+        color: white;
+    }
+    50%{
+        color: deepskyblue;
+    }
+    100%{
+        color: fuchsia;
+    }
+}
+@media screen and (max-device-width:1240px){
+    body{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        
+
+    }
+    #main{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    #tribute-info{
+        width: 100%;
+    }
+    #title{
+        display: block;
+        max-width: 100%;
+        position: relative;
+        font-size: xx-large;
+        left: 0;
+        margin: 2% 0 2% 0;
+    }
+    .first-image{
+        display: none;
+    }
+    #img{
+        display: block;
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    #img-div{
+        position: relative;
+        width: 90%;
+        left: 0;
+    }
+    #image {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+}
+@media screen and (min-device-width:1500px){
+    #tribute-info{
+        font-size: larger;
+    }
+}
+@media screen and (min-device-width:1750px){
+    #tribute-info{
+        font-size: x-large;
+    }
+}
+@media screen and (min-device-width:2200px){
+    #tribute-info{
+        font-size: 3vh;
+    }
+}

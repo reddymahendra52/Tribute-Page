@@ -121,7 +121,7 @@ footer{
         color: fuchsia;
     }
 }
-@media screen and (max-device-width:1240px){
+@media only screen and (max-width:1240px){
     body{
         display: block;
         width: 100%;
@@ -171,17 +171,17 @@ footer{
     }
 
 }
-@media screen and (min-device-width:1500px){
+@media only screen and (min-width:1500px){
     #tribute-info{
         font-size: larger;
     }
 }
-@media screen and (min-device-width:1750px){
+@media only screen and (min-width:1750px){
     #tribute-info{
         font-size: x-large;
     }
 }
-@media screen and (min-device-width:2200px){
+@media only screen and (min-width:2200px){
     #tribute-info{
         font-size: 3vh;
     }
